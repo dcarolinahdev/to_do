@@ -1,12 +1,18 @@
 # A to-do list app in Flask
 
-# Versions
+## The app
+
+### Versions
 
     Flask 2.1.3
 
 You can see complete list in requirements.txt.
 
-# How to run this app in localhost?
+## Blueprints
+
+It is a series of routes that can be integrated into the main app but from another directory.
+
+## How to run this app in localhost?
 
 1. Create and activate your virtualenv with python version 3.8.10
 
