@@ -1,6 +1,8 @@
-from flask import request, make_response, redirect, render_template, session, url_for, flash
+# Python
 import unittest
-
+# Flask
+from flask import request, make_response, redirect, render_template, session, url_for, flash
+# App
 from app import create_app
 from app.forms import LoginForm
 

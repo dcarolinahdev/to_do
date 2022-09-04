@@ -27,6 +27,8 @@ Flask 2.1.3
 Flask-Bootstrap 3.3.7.1
 Flask-Testing 0.8.1
 Flask-WTF 1.0.1
+
+Werkzeug 2.0.0 recommended
 ```
 
 You can see complete list in [requirements.txt](requirements.txt)

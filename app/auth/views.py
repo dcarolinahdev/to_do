@@ -1,9 +1,14 @@
+# Flask
 from flask import render_template, session, redirect, flash, url_for
+# App
 from app.forms import LoginForm
 from . import auth
 
 @auth.route('/login', methods=['GET', 'POST'])
 def login():
+    """
+    Functionality to login, with form in the context and flash message.
+    """
     login_form = LoginForm()
 
     context = {
