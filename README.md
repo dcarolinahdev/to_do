@@ -1,18 +1,48 @@
 # A to-do list app in Flask
 
-## The app
+---
 
-### Versions
+> ***v1.1*** - This is an initial project in a learning path.
 
-    Flask 2.1.3
+*Some features*
 
-You can see complete list in requirements.txt.
+- It uses blueprints: it's a route series that can be integrated into the main app but from another directory.
 
-## Blueprints
+- It includes config file.
 
-It is a series of routes that can be integrated into the main app but from another directory.
+- It includes forms with FlaskForm.
 
-## How to run this app in localhost?
+- The project include some tests.
+
+- It include error handler for 404 and 500 errors.
+
+- It uses templates for views with template inheritance and jinja 2.
+
+- The project doesn't use (currently) any database.
+
+## Versions
+
+```
+Flask 2.1.3
+Flask-Bootstrap 3.3.7.1
+Flask-Testing 0.8.1
+Flask-WTF 1.0.1
+```
+
+You can see complete list in [requirements.txt](requirements.txt)
+
+## Endpoints
+
+| route | meaning |
+| --- | --- |
+| / | index site |
+| /hello/ | to-do list |
+| /login/ | login view |
+
+---
+---
+
+# How to run this app in localhost?
 
 1. Create and activate your virtualenv with python version 3.8.10
 
